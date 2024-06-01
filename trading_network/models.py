@@ -23,7 +23,7 @@ class NetworkNode(models.Model):
                                  **NULLABLE, related_name='Покупатели',
                                  verbose_name='Поставщик')
     debt = models.DecimalField(max_digits=10, decimal_places=2,
-                               default=0.00, verbose_name='Время создания')
+                               default=0.00, verbose_name='Задолженность')
     created_at = models.DateTimeField(default=timezone.now,
                                       verbose_name='Время создания')
     level = models.PositiveSmallIntegerField(choices=LEVEL, default=0,
