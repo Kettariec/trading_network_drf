@@ -17,7 +17,7 @@ config/
     settings.py - настройки приложений
     urls.py - файл маршрутизации
 
-tracker/
+trading_network/
 
     migrations/
         папка с миграциями
@@ -51,6 +51,7 @@ user/
 manage.py - точка входа веб-приложения.
 
 pyproject.toml - файл зависимостей проекта.
+
 poetry.lock - файл Poetry.
 
 <!-- LICENSE -->
