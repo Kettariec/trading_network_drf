@@ -65,6 +65,4 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 kettariec@gmail.com
 
-https://github.com/Kettariec/trading_network/
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+https://github.com/Kettariec/trading_network_drf/
