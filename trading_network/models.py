@@ -30,7 +30,7 @@ class NetworkNode(models.Model):
                                              verbose_name='Уровень')
 
     def __str__(self):
-        return f'{self.name}'
+        return f'{self.level} {self.name}'
 
     class Meta:
         verbose_name = 'Поставщик'
